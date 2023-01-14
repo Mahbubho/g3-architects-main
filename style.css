@@ -159,9 +159,27 @@ p{
   margin-top: 60px;
   margin-left: 120px;
   width: 40%;
-  
+  margin-bottom: 120px;
   
 }
 .facts{
   padding-bottom: 10px;
+}
+.award{
+  border: 1px solid #FF900E;
+border-radius: 8px;
+transform: rotate(90deg);
+width: 150.83px;
+height: 150.83px;
+}
+.awards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap:75px;
+}
+.section-four{
+  display: flex;
+  justify-content: center;
+ 
 }
